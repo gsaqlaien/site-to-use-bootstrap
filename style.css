@@ -1,0 +1,217 @@
+/*==========
+ fonts
+========= */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/*===========
+ h1-tag fonts
+======= */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo img{
+    width: 291px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+    
+    
+}
+.section-title {
+    display: flex;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #FFFBF0;
+    height: 100vh;
+    background-size: cover;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    
+}
+.navigation {
+    display: flex;
+    
+    
+    
+}
+
+.navigation li {
+    list-style: none;
+    margin-right: 35px;
+    
+}
+
+.navigation li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    padding: 12px 10px;
+}
+h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.h1-tag {
+    font-size: 80px;
+    font-family: 'Bebas Neue', cursive;
+    color: #FABE4C;
+    
+}
+.h1-tag1 {
+    font-size: 80px;
+    font-family: 'Bebas Neue', cursive;
+    color:#363958;
+}
+
+/*=========
+ banner-started
+=========== */
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(80vh - 80px);
+}
+
+    
+.banner-left {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.para {
+    text-align: justify;
+    text-align-last: left;
+    
+}
+
+.banner-left img {
+    width: 100%;
+    
+}
+.primary-button {
+    outline: 0;
+    border: 0;
+    background-color: #A4BC46;
+    padding: 15px 25px;
+    margin-top: 18px;
+    border-radius: 7px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding-left: 15px;
+    
+
+
+}
+
+.fas {
+    padding-right: 15px;    
+}
+
+/*============
+ card-section-style
+ =============
+ */
+ 
+ .photo-album {
+     height: 580px;
+     width: 350px;
+     padding: 30px 30px;
+     box-shadow: 5px 5px 20px grey;
+     border-radius: 10px;
+     margin-bottom: 20px;
+     
+    
+ }
+
+ .section-title {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     
+ }
+
+ .photo-album .photo-frame img {
+     width:293px;
+     background-color: #F1F1F1;
+     margin-bottom: 29px;
+ }
+ .photo {
+     margin-top: 12px;
+     
+ }
+ 
+
+.photo-info {
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.price {
+    color:#FABE4C;
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 20px;
+    
+}
+ /*=========
+  final section
+ ======== */
+  .first {
+      display: flex;
+      width: 489px;
+      box-shadow: 5px 5px 10px grey;
+      margin-bottom: 15px;
+      border-radius: 12px;
+      padding: 12px 15px;
+      margin-top: 25px;
+      
+  } 
+ .first .find img {
+     width: 78px;
+ }
+ 
+ .details {
+     padding: 15px 12px;
+ }
+
+.child img {
+     width: 620px;
+     
+ }
+ .parent {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     align-items: center;
+     margin-top: 150px;
+     margin-bottom: 60px;
+     
+ }
+
+
+ .fl {
+     display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
